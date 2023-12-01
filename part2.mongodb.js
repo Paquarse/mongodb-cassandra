@@ -3,7 +3,6 @@
 use('ExutoireStore')
 db.Exutoire.countDocuments({})
 
-
 //1-Quel est le nombre d'exutoires pour les déchets Dématérialisation
 use('ExutoireStore')
 db.Exutoire.countDocuments({
@@ -18,7 +17,6 @@ db.Exutoire.find({
 });
 
 //3 -Quels sont les déchets associés à l'exutoire id 3 ?
-
 use('ExutoireStore')
 db.Exutoire.find({
     "id_exutoire": 3
